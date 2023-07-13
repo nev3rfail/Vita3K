@@ -168,6 +168,7 @@ int handle_touch_event(SDL_TouchFingerEvent &finger) {
     return 0;
 }
 
+
 static bool registered_touch() {
     if (finger_count > 0) {
         return true;
