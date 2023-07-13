@@ -34,6 +34,7 @@ int touch_buffer_idx = 0;
 
 static uint64_t timestamp;
 static SDL_TouchFingerEvent finger_buffer[8];
+static SDL_ControllerTouchpadEvent touchpad_finger_buffer[8];
 static uint8_t finger_count = 0;
 static SDL_FingerID finger_id_ref;
 static auto touchscreen_port = SCE_TOUCH_PORT_FRONT;
